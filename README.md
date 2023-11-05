@@ -26,6 +26,13 @@ There are five classes in the dataset, each with 5,000 images, being:
 - Lung squamous cell carcinoma
 - Colon adenocarcinoma
 - Colon benign tissue
+  
+  ![image](https://github.com/Jsujanchowdary/-Lung-Cancer-Detection-using-Convolutional-Neural-Network-and-Open-Ai/assets/91127394/9a3aa993-cc59-4a9a-9cd8-642fe00f7c11)
+  ![image](https://github.com/Jsujanchowdary/-Lung-Cancer-Detection-using-Convolutional-Neural-Network-and-Open-Ai/assets/91127394/0d50b230-4600-4432-bf7f-b611229789d6)
+  ![image](https://github.com/Jsujanchowdary/-Lung-Cancer-Detection-using-Convolutional-Neural-Network-and-Open-Ai/assets/91127394/0f2cb015-6aaf-4e17-ac3b-a810c92b6f49)
+
+
+
 
 **Dataset Link**: [View Dataset on Kaggle](https://www.kaggle.com/datasets/andrewmvd/lung-and-colon-cancer-histopathological-images/)
 
@@ -73,11 +80,20 @@ Here's how the code works step by step:
 8. **Data Visualization**:
    - The code uses `matplotlib` to plot the training and validation loss and accuracy over epochs.
 
+     ![image](https://github.com/Jsujanchowdary/-Lung-Cancer-Detection-using-Convolutional-Neural-Network-and-Open-Ai/assets/91127394/c6f57cef-a10b-4d34-a794-51b385bdb9ec)
+
+
 9. **Model Evaluation**:
    - The model is evaluated on the validation set using metrics like the confusion matrix and classification report from `sklearn`.
+  
+     ![image](https://github.com/Jsujanchowdary/-Lung-Cancer-Detection-using-Convolutional-Neural-Network-and-Open-Ai/assets/91127394/b5c21095-998b-46ec-be22-00d638f06432)
+
 
 10. **GPT-3 Integration (Additional)**:
     - The code integrates OpenAI's GPT-3 API for generating image descriptions based on prompts. It defines a function `generate_image_descriptions` that sends image prompts to GPT-3 and receives generated descriptions.
+   
+      ![image](https://github.com/Jsujanchowdary/-Lung-Cancer-Detection-using-Convolutional-Neural-Network-and-Open-Ai/assets/91127394/ac79e431-c811-44b3-81d3-236e865e8f37)
+
 
 
 ## Acknowledgments
